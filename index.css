@@ -1,0 +1,119 @@
+body {
+  background-color: #393E46;
+}
+
+h1 {
+  margin: 30px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 8rem;
+  color: #4ECCA3;
+}
+.player_name{
+  font-size: 2rem;
+  color: #4ECCA3;
+  font-family: 'Indie Flower', cursive;
+}
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.player_sec{
+
+  display: inline-block;
+
+}
+.sps {
+  text-align: center;
+  display: inline-block;
+
+
+}
+.computershake{
+  animation: shakecomputer 0.8s linear;
+}
+.playershake{
+  animation: shakeplayer 0.8s linear;
+}
+
+
+img {
+  width: 70%;
+}
+
+footer {
+  margin-top: 5%;
+  color: #EEEEEE;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+
+}
+.option{
+
+  margin:50px auto 30px auto;
+text-align: center;
+}
+.btnclick{
+width: 150px;
+height: 40px;
+
+font-size: 1.2rem;
+border-radius: 20px;
+border: 0;
+background-color: #FFF;
+
+font-weight: bold;
+
+}
+.btnclick:hover{
+  background-color: darkcyan;
+  color:#FFF;
+}
+.btnclick a{
+  text-decoration: none;
+  color:#FFF;
+}
+.btn{
+  margin-left: 100px;
+}
+@keyframes shakecomputer {
+  0%{
+    transform: rotate(-30deg);
+  }
+  25%{
+    transform: rotate(30deg);
+  }
+  50%{
+    transform: rotate(-30deg);
+  }
+  75%{
+    transform: rotate(30deg);
+  }
+  100%{
+    transform: rotate(0);
+  }
+}
+@keyframes shakeplayer {
+  0%{
+    transform: rotate(30deg);
+  }
+  25%{
+    transform: rotate(-30deg);
+  }
+  50%{
+    transform: rotate(30deg);
+  }
+  75%{
+    transform: rotate(-30deg);
+  }
+  100%{
+    transform: rotate(0);
+  }
+}
+.points{
+  text-align: center;
+  font-size: 1.5rem;
+  color:#FFF;
+}
